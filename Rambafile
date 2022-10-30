@@ -13,7 +13,7 @@ project_target: 3Commans_task
 project_file_path: 3Commands_task
 
 # The Xcode group path to new modules
-project_group_path: 3Commands_task
+project_group_path: 3Commans_task
 
 ### Templates
 templates:
