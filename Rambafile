@@ -1,0 +1,20 @@
+### Headers settings
+company: Alexey Parkhomenko
+
+### Xcode project settings
+project_name: 3Commans_task
+xcodeproj_path: 3Commans_task.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: 3Commans_task
+
+# The file path for new modules
+project_file_path: 3Commands_task
+
+# The Xcode group path to new modules
+project_group_path: 3Commands_task
+
+### Templates
+templates:
+- {name: pa_viper, git: 'https://github.com/ParkhomenkoAlexey/pa_viper'}
