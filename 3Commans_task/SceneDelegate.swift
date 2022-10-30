@@ -17,8 +17,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
         let listVC = ListModuleModuleConfigurator().makeListModuleViewController()
+        let navVC = UINavigationController(rootViewController: listVC)
         
-        window?.rootViewController = listVC
+        window?.rootViewController = navVC
         window?.makeKeyAndVisible()
     }
 }

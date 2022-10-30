@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30E4902E290EE55B005734FA /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E4902D290EE55B005734FA /* ListCell.swift */; };
 		30EB46FE290ED53F00DC912C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB46FD290ED53F00DC912C /* AppDelegate.swift */; };
 		30EB4700290ED53F00DC912C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB46FF290ED53F00DC912C /* SceneDelegate.swift */; };
 		30EB4707290ED54400DC912C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30EB4706290ED54400DC912C /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		1297DB66F9282E7C332AD15E /* ListModuleViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListModuleViewInput.swift; sourceTree = "<group>"; };
 		1AAD9458D8A5DBE65D076805 /* ListModuleRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListModuleRouterInput.swift; sourceTree = "<group>"; };
+		30E4902D290EE55B005734FA /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
 		30EB46FA290ED53F00DC912C /* 3Commans_task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3Commans_task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30EB46FD290ED53F00DC912C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30EB46FF290ED53F00DC912C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				1297DB66F9282E7C332AD15E /* ListModuleViewInput.swift */,
 				93D77ABF02E480D0C5A336C9 /* ListModuleViewOutput.swift */,
 				AB7FB8717B6F3E2533DB3065 /* ListModuleViewController.swift */,
+				30E4902D290EE55B005734FA /* ListCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				30EB46FE290ED53F00DC912C /* AppDelegate.swift in Sources */,
 				30EB4700290ED53F00DC912C /* SceneDelegate.swift in Sources */,
 				36D6BAB8CCD5F813F96777A8 /* ListModuleConfigurator.swift in Sources */,
+				30E4902E290EE55B005734FA /* ListCell.swift in Sources */,
 				8C0F31388D1896C9B11E3DE3 /* ListModuleViewInput.swift in Sources */,
 				6ECA49AD94269894388E1D63 /* ListModuleViewOutput.swift in Sources */,
 				A15548FB9BF8717EF549D011 /* ListModuleViewController.swift in Sources */,
