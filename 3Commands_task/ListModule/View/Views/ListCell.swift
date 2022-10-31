@@ -28,8 +28,8 @@ final class ListCell: UITableViewCell {
     }
     
     private func setupElements() {
-        backgroundColor = .orange
-        mainImageView.contentMode = .scaleAspectFill
+        backgroundColor = .lightGray
+        mainImageView.contentMode = .scaleToFill
         mainImageView.translatesAutoresizingMaskIntoConstraints = false
     }
     

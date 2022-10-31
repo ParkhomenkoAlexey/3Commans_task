@@ -12,5 +12,6 @@ protocol ListModuleViewOutput {
 
     func fetchList()
     func heightForCell(indexPath: IndexPath) -> CGFloat
+    func scrollViewDidScroll(scrollView: UIScrollView)
     var feed: [FeedObject] { get }
 }

@@ -10,7 +10,7 @@ import Foundation
 enum API {
     
     static let apiKey = "93c9d23ca5730d844c524da274020c05"
-    static let perPageResult =  2
+    static let perPageResult =  30
     static let url = "https://www.flickr.com/services/rest/"
     enum Method {
         static let photosList = "flickr.interestingness.getList"

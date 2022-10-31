@@ -43,6 +43,10 @@ class ListModuleViewController: UIViewController {
             tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
         ])
     }
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        output.scrollViewDidScroll(scrollView: scrollView)
+    }
 }
 
 // MARK: - ListModuleModuleInput
@@ -70,10 +74,10 @@ extension ListModuleViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return output.heightForCell(indexPath: indexPath)
+        return 300
     }
     
     func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
-        return output.heightForCell(indexPath: indexPath)
+        return 300
     }
 }

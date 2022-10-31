@@ -14,7 +14,7 @@ class ListModulePresenter {
     var interactor: ListModuleInteractorInput!
     var router: ListModuleRouterInput!
     
-    private var currentPage: Int = 0
+    private var requestedPage: Int = 0
     var feed: [FeedObject] = []
     
     private func showErrorAlert(error: Error) -> UIAlertController {
@@ -34,6 +34,7 @@ extension ListModulePresenter: ListModuleModuleInput {
 
 // MARK: - ListModuleViewOutput
 extension ListModulePresenter: ListModuleViewOutput {
+    
     func heightForCell(indexPath: IndexPath) -> CGFloat {
         let object = feed[indexPath.row]
         let diff: CGFloat = CGFloat(object.height / object.width)
@@ -43,7 +44,14 @@ extension ListModulePresenter: ListModuleViewOutput {
     }
     
     func fetchList() {
-        interactor.fetchList(fromPage: currentPage)
+        interactor.fetchList(fromPage: requestedPage)
+    }
+    
+    func scrollViewDidScroll(scrollView: UIScrollView) {
+        if (scrollView.contentOffset.y >= (scrollView.contentSize.height - scrollView.frame.size.height)) {
+            self.requestedPage += 1
+            interactor.fetchList(fromPage: requestedPage)
+        }
     }
 }
 
