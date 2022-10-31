@@ -6,7 +6,10 @@
 //  Copyright © 2022 Alexey Parkhomenko. All rights reserved.
 //
 
-protocol ListModuleViewInput: class {
+import UIKit
 
-    func setupInitialState()
+protocol ListModuleViewInput: class {
+    
+    func showAlertController(alertController: UIAlertController)
+    func reloadTableView()
 }

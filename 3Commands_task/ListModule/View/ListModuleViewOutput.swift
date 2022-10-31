@@ -6,7 +6,11 @@
 //  Copyright © 2022 Alexey Parkhomenko. All rights reserved.
 //
 
+import UIKit
+
 protocol ListModuleViewOutput {
 
-    func viewIsReady()
+    func fetchList()
+    func heightForCell(indexPath: IndexPath) -> CGFloat
+    var feed: [FeedObject] { get }
 }

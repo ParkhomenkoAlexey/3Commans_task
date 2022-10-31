@@ -9,5 +9,5 @@
 import Foundation
 
 protocol ListModuleInteractorInput {
-
+    func fetchList(fromPage: Int)
 }

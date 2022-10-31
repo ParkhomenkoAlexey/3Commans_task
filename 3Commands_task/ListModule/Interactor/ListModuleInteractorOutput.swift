@@ -9,5 +9,6 @@
 import Foundation
 
 protocol ListModuleInteractorOutput: class {
-
+    func fetchListSuccess(feed: [FeedObject])
+    func fetchListFailure(error: Error)
 }

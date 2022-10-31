@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30AB29C1290FB75200188165 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AB29C0290FB75200188165 /* API.swift */; };
+		30AB29C3290FB7D900188165 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AB29C2290FB7D900188165 /* NetworkService.swift */; };
+		30AB29C5290FB7EE00188165 /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AB29C4290FB7EE00188165 /* NetworkDataFetcher.swift */; };
+		30AB29C8290FF52200188165 /* FeedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AB29C7290FF52200188165 /* FeedObject.swift */; };
 		30E4902E290EE55B005734FA /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E4902D290EE55B005734FA /* ListCell.swift */; };
 		30EB46FE290ED53F00DC912C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB46FD290ED53F00DC912C /* AppDelegate.swift */; };
 		30EB4700290ED53F00DC912C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB46FF290ED53F00DC912C /* SceneDelegate.swift */; };
@@ -23,11 +27,16 @@
 		C76CE822F3386AD2CB5C34B6 /* ListModuleModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F079857B537EC1CD87BA9A80 /* ListModuleModuleInput.swift */; };
 		D523B295E478C6462ACB58A5 /* ListModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553104820F5C83E1B1C9FC8C /* ListModuleRouter.swift */; };
 		DC9A7467F47E33B6A0E8C015 /* ListModuleRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAD9458D8A5DBE65D076805 /* ListModuleRouterInput.swift */; };
+		DF926ADE143DF4C11018DD62 /* Pods_3Commans_task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA8EE44686046B637EE4897 /* Pods_3Commans_task.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1297DB66F9282E7C332AD15E /* ListModuleViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListModuleViewInput.swift; sourceTree = "<group>"; };
 		1AAD9458D8A5DBE65D076805 /* ListModuleRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListModuleRouterInput.swift; sourceTree = "<group>"; };
+		30AB29C0290FB75200188165 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		30AB29C2290FB7D900188165 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		30AB29C4290FB7EE00188165 /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
+		30AB29C7290FF52200188165 /* FeedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedObject.swift; sourceTree = "<group>"; };
 		30E4902D290EE55B005734FA /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
 		30EB46FA290ED53F00DC912C /* 3Commans_task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3Commans_task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30EB46FD290ED53F00DC912C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,11 +45,14 @@
 		30EB4709290ED54400DC912C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30EB470B290ED54400DC912C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31554F5F8F161992E5868207 /* ListModuleInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListModuleInteractor.swift; sourceTree = "<group>"; };
+		3E86A5EAF7A257DF1C7D3B66 /* Pods-3Commans_task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3Commans_task.release.xcconfig"; path = "Target Support Files/Pods-3Commans_task/Pods-3Commans_task.release.xcconfig"; sourceTree = "<group>"; };
 		553104820F5C83E1B1C9FC8C /* ListModuleRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListModuleRouter.swift; sourceTree = "<group>"; };
 		562679C57405E97CDF59EC50 /* ListModuleInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListModuleInteractorOutput.swift; sourceTree = "<group>"; };
 		6C22381FF9C182F155EEACC8 /* ListModuleInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListModuleInteractorInput.swift; sourceTree = "<group>"; };
 		83DB71D916A7B121BC6A87A0 /* ListModulePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListModulePresenter.swift; sourceTree = "<group>"; };
+		85B64C2D9459A94562DF933A /* Pods-3Commans_task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3Commans_task.debug.xcconfig"; path = "Target Support Files/Pods-3Commans_task/Pods-3Commans_task.debug.xcconfig"; sourceTree = "<group>"; };
 		93D77ABF02E480D0C5A336C9 /* ListModuleViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListModuleViewOutput.swift; sourceTree = "<group>"; };
+		9CA8EE44686046B637EE4897 /* Pods_3Commans_task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_3Commans_task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7FB8717B6F3E2533DB3065 /* ListModuleViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListModuleViewController.swift; sourceTree = "<group>"; };
 		E778C4E80F097E03B9D7A9B7 /* ListModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListModuleConfigurator.swift; sourceTree = "<group>"; };
 		F079857B537EC1CD87BA9A80 /* ListModuleModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListModuleModuleInput.swift; sourceTree = "<group>"; };
@@ -51,12 +63,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF926ADE143DF4C11018DD62 /* Pods_3Commans_task.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		123D68161294809BCE402CBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CA8EE44686046B637EE4897 /* Pods_3Commans_task.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		242D764F4D7B79187B3FBFDA /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
@@ -67,11 +88,40 @@
 			path = Interactor;
 			sourceTree = "<group>";
 		};
+		30AB29C6290FF4C800188165 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				30AB29C9290FF53400188165 /* Model */,
+				30AB29C0290FB75200188165 /* API.swift */,
+				30AB29C2290FB7D900188165 /* NetworkService.swift */,
+				30AB29C4290FB7EE00188165 /* NetworkDataFetcher.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		30AB29C9290FF53400188165 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				30AB29C7290FF52200188165 /* FeedObject.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		30AB29CA290FF5A500188165 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30E4902D290EE55B005734FA /* ListCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		30EB46F1290ED53F00DC912C = {
 			isa = PBXGroup;
 			children = (
 				30EB46FC290ED53F00DC912C /* 3Commans_task */,
 				30EB46FB290ED53F00DC912C /* Products */,
+				CC47D4015449A248B5799817 /* Pods */,
+				123D68161294809BCE402CBF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +138,7 @@
 			children = (
 				30EB46FD290ED53F00DC912C /* AppDelegate.swift */,
 				30EB46FF290ED53F00DC912C /* SceneDelegate.swift */,
+				30AB29C6290FF4C800188165 /* Networking */,
 				B48465A832E5EEA20D824FE4 /* ListModule */,
 				30EB4706290ED54400DC912C /* Assets.xcassets */,
 				30EB4708290ED54400DC912C /* LaunchScreen.storyboard */,
@@ -102,7 +153,7 @@
 				1297DB66F9282E7C332AD15E /* ListModuleViewInput.swift */,
 				93D77ABF02E480D0C5A336C9 /* ListModuleViewOutput.swift */,
 				AB7FB8717B6F3E2533DB3065 /* ListModuleViewController.swift */,
-				30E4902D290EE55B005734FA /* ListCell.swift */,
+				30AB29CA290FF5A500188165 /* Views */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -146,6 +197,15 @@
 			path = Presenter;
 			sourceTree = "<group>";
 		};
+		CC47D4015449A248B5799817 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85B64C2D9459A94562DF933A /* Pods-3Commans_task.debug.xcconfig */,
+				3E86A5EAF7A257DF1C7D3B66 /* Pods-3Commans_task.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -153,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30EB470E290ED54400DC912C /* Build configuration list for PBXNativeTarget "3Commans_task" */;
 			buildPhases = (
+				54AE5A4C5D7B3632F2B816B5 /* [CP] Check Pods Manifest.lock */,
 				30EB46F6290ED53F00DC912C /* Sources */,
 				30EB46F7290ED53F00DC912C /* Frameworks */,
 				30EB46F8290ED53F00DC912C /* Resources */,
+				27192B7F363E2A389991E789 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -211,6 +273,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27192B7F363E2A389991E789 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-3Commans_task/Pods-3Commans_task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-3Commans_task/Pods-3Commans_task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-3Commans_task/Pods-3Commans_task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54AE5A4C5D7B3632F2B816B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-3Commans_task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		30EB46F6290ED53F00DC912C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -220,11 +324,15 @@
 				30EB4700290ED53F00DC912C /* SceneDelegate.swift in Sources */,
 				36D6BAB8CCD5F813F96777A8 /* ListModuleConfigurator.swift in Sources */,
 				30E4902E290EE55B005734FA /* ListCell.swift in Sources */,
+				30AB29C1290FB75200188165 /* API.swift in Sources */,
 				8C0F31388D1896C9B11E3DE3 /* ListModuleViewInput.swift in Sources */,
 				6ECA49AD94269894388E1D63 /* ListModuleViewOutput.swift in Sources */,
 				A15548FB9BF8717EF549D011 /* ListModuleViewController.swift in Sources */,
+				30AB29C8290FF52200188165 /* FeedObject.swift in Sources */,
 				C76CE822F3386AD2CB5C34B6 /* ListModuleModuleInput.swift in Sources */,
 				63C65E8A6A22CB92A6B427C5 /* ListModulePresenter.swift in Sources */,
+				30AB29C3290FB7D900188165 /* NetworkService.swift in Sources */,
+				30AB29C5290FB7EE00188165 /* NetworkDataFetcher.swift in Sources */,
 				9E4CB1509E938B6FA275466C /* ListModuleInteractorInput.swift in Sources */,
 				B4C87D5EFAD0A8E27E86F329 /* ListModuleInteractorOutput.swift in Sources */,
 				7CA97FF36DAB194D61FEA65F /* ListModuleInteractor.swift in Sources */,
@@ -363,6 +471,7 @@
 		};
 		30EB470F290ED54400DC912C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85B64C2D9459A94562DF933A /* Pods-3Commans_task.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -391,6 +500,7 @@
 		};
 		30EB4710290ED54400DC912C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E86A5EAF7A257DF1C7D3B66 /* Pods-3Commans_task.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

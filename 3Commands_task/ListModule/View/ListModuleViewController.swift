@@ -16,10 +16,10 @@ class ListModuleViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        output.viewIsReady()
     
         setupElements()
         setupConstraints()
+        output.fetchList()
     }
     
     private func setupElements() {
@@ -47,18 +47,33 @@ class ListModuleViewController: UIViewController {
 
 // MARK: - ListModuleModuleInput
 extension ListModuleViewController: ListModuleViewInput {
-    func setupInitialState() {
+    func showAlertController(alertController: UIAlertController) {
+        self.present(alertController, animated: true)
+    }
+    
+    func reloadTableView() {
+        self.tableView.reloadData()
     }
 }
 
 // MARK: - UITableViewDataSource, UITableViewDelegate
 extension ListModuleViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return output.feed.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: ListCell.reuseId) as! ListCell
+        let feedObject = output.feed[indexPath.row]
+        cell.configureWith(imageURL: feedObject.imageURL)
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return output.heightForCell(indexPath: indexPath)
+    }
+    
+    func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
+        return output.heightForCell(indexPath: indexPath)
     }
 }
