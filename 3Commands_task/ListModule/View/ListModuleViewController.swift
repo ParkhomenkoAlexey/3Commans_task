@@ -69,8 +69,12 @@ extension ListModuleViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: ListCell.reuseId) as! ListCell
         let feedObject = output.feed[indexPath.row]
-        cell.configureWith(imageURL: feedObject.imageURL)
+        cell.configureWith(imageString: feedObject.imageURL)
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        output.didSelectRowAt(indexPath: indexPath)
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

@@ -11,5 +11,11 @@ import UIKit
 class ListModuleRouter: ListModuleRouterInput {
     
     var viewController: UIViewController!
+    
+    func routeToDetailScreen(feedObject: FeedObject) {
+        let detailVC = DetailInfoViewController()
+        detailVC.configureWith(imageString: feedObject.imageURL, name: feedObject.name)
+        viewController.navigationController?.pushViewController(detailVC, animated: true)
+    }
 
 }

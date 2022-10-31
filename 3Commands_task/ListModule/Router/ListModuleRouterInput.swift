@@ -9,5 +9,5 @@
 import Foundation
 
 protocol ListModuleRouterInput {
-
+    func routeToDetailScreen(feedObject: FeedObject) 
 }

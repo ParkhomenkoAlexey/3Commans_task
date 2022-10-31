@@ -35,6 +35,11 @@ extension ListModulePresenter: ListModuleModuleInput {
 // MARK: - ListModuleViewOutput
 extension ListModulePresenter: ListModuleViewOutput {
     
+    func didSelectRowAt(indexPath: IndexPath) {
+        let object = feed[indexPath.row]
+        router.routeToDetailScreen(feedObject: object)
+    }
+    
     func heightForCell(indexPath: IndexPath) -> CGFloat {
         let object = feed[indexPath.row]
         let diff: CGFloat = CGFloat(object.height / object.width)

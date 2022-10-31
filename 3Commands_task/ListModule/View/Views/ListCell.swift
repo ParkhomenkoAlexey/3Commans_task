@@ -21,8 +21,8 @@ final class ListCell: UITableViewCell {
         setupConstraints()
     }
     
-    func configureWith(imageURL: String) {
-        if let url = URL(string: imageURL) {
+    func configureWith(imageString: String) {
+        if let url = URL(string: imageString) {
             mainImageView.sd_setImage(with: url)
         }
     }

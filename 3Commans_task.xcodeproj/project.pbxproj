@@ -11,6 +11,7 @@
 		30AB29C3290FB7D900188165 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AB29C2290FB7D900188165 /* NetworkService.swift */; };
 		30AB29C5290FB7EE00188165 /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AB29C4290FB7EE00188165 /* NetworkDataFetcher.swift */; };
 		30AB29C8290FF52200188165 /* FeedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AB29C7290FF52200188165 /* FeedObject.swift */; };
+		30AB29CC290FF99000188165 /* DetailInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AB29CB290FF99000188165 /* DetailInfoViewController.swift */; };
 		30E4902E290EE55B005734FA /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E4902D290EE55B005734FA /* ListCell.swift */; };
 		30EB46FE290ED53F00DC912C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB46FD290ED53F00DC912C /* AppDelegate.swift */; };
 		30EB4700290ED53F00DC912C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB46FF290ED53F00DC912C /* SceneDelegate.swift */; };
@@ -37,6 +38,7 @@
 		30AB29C2290FB7D900188165 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		30AB29C4290FB7EE00188165 /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
 		30AB29C7290FF52200188165 /* FeedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedObject.swift; sourceTree = "<group>"; };
+		30AB29CB290FF99000188165 /* DetailInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInfoViewController.swift; sourceTree = "<group>"; };
 		30E4902D290EE55B005734FA /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
 		30EB46FA290ED53F00DC912C /* 3Commans_task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3Commans_task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30EB46FD290ED53F00DC912C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 				C3A4CCD01CF1C92928243144 /* Presenter */,
 				242D764F4D7B79187B3FBFDA /* Interactor */,
 				6CEF57E1261A6CD04D106543 /* Router */,
+				30AB29CB290FF99000188165 /* DetailInfoViewController.swift */,
 			);
 			name = ListModule;
 			path = 3Commands_task/ListModule;
@@ -335,6 +338,7 @@
 				30AB29C5290FB7EE00188165 /* NetworkDataFetcher.swift in Sources */,
 				9E4CB1509E938B6FA275466C /* ListModuleInteractorInput.swift in Sources */,
 				B4C87D5EFAD0A8E27E86F329 /* ListModuleInteractorOutput.swift in Sources */,
+				30AB29CC290FF99000188165 /* DetailInfoViewController.swift in Sources */,
 				7CA97FF36DAB194D61FEA65F /* ListModuleInteractor.swift in Sources */,
 				DC9A7467F47E33B6A0E8C015 /* ListModuleRouterInput.swift in Sources */,
 				D523B295E478C6462ACB58A5 /* ListModuleRouter.swift in Sources */,
